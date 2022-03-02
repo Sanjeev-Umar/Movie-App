@@ -39,7 +39,7 @@ h2 {
 /* section style */
 .main-container {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,9 +65,10 @@ header {
 .footer-section {
   background: var(--secondary-color);
   width: 100%;
-  height: 15%;
   position: absolute;
+  padding: 20px 0;
   bottom: 0;
+  margin-top: 20px;
 }
 
 /* Header Section */
@@ -120,8 +121,9 @@ header {
 .main-container .results-section .results-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: auto;
+  margin-bottom: 60px;
 }
 .main-container .results-section .results-container .result-details {
   display: flex;
@@ -129,14 +131,14 @@ header {
   align-items: center;
   background-color: var(--secondary-color);
   width: 200px;
-  height: 300px;
+  height: 370px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
   border-radius: var(--default-border-radius);
   position: relative;
 }
 .main-container .results-section .results-container .result-details img {
   width: 100%;
-  height: 70%;
+  height:100%
   border-top-left-radius: var(--default-border-radius);
   border-top-right-radius: var(--default-border-radius);
 }
