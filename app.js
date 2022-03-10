@@ -4,6 +4,8 @@
 //   .then((res) => res.json())
 //   .then((data) => console.log(data));
 
+// this is a test
+
 const resultsContainer = document.querySelector(".results-container");
 
 const form = document.querySelector("form");
